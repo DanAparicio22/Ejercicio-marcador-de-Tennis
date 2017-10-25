@@ -1,1 +1,34 @@
-<h1><%= @saludo%></h1>
+
+<table border="2">
+	<tr>
+		<th colspan="2" align="center"><%= @saludo%></th>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><%= @score%></td>
+	</tr>
+	<tr>
+		<td>
+			<form action="/anotar1" method="post" >
+				<button type="submit" value="puntoj1">punto jugador 1</button>
+			</form>
+		</td>
+		<td>
+			<form action="/anotar2" method="post" >
+				<button type="submit" value="puntoj2">punto jugador 2</button>
+			</form>
+		</td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center">
+			<form action="/regresar" method="post" >
+				<button type="submit" value="regresar">Volver al menu principal</button>
+			</form>
+		</td>
+	</tr>
+</table>
+
+
+
+
+
+

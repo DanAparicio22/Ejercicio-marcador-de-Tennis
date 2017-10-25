@@ -21,3 +21,19 @@ end
 Then("deberia mostrar los dos nombres {string}") do |mensaje|
   expect(last_response.body) =~ /#{mensaje}/
 end
+
+Given("visito la pagina de marcador") do
+  visit('/jugarpartido')
+end
+
+When("presiono el boton de {string}") do |boton|
+  click_button(boton)
+end
+
+Then("deberia mostrar el puntaje {string}") do |marcador|
+  expect(last_response.body) =~ /#{marcador}/
+end
+
+Then("deberia visitar la pagina de inicio") do
+  visit('/')
+end

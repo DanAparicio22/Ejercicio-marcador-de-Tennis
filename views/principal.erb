@@ -1,9 +1,19 @@
 <h1>Bienvenido</<h1>
 
 <form action="/jugarpartido" method="post">
-<input type="text" name="jugador1">
-<input type="text" name="jugador2">
-<input type="submit" value="jugar">
+<table>
+	<tr>
+		<th>Jugador 1</th>
+		<th>Jugador 2</th>
+	</tr>
+	<tr>
+		<td><input type="text" name="jugador1" required></td>
+		<td><input type="text" name="jugador2" required></td>
+	</tr>
+	<tr>
+		<td colspan="2" align="center"><button type="submit" value="jugar">Jugar partida</button></td>
+	</tr>
+</table>
 </form>
 
 
