@@ -1,2 +1,1 @@
-#Ejercicio tennis
-[!Ejercicio-marcador-de-Tennis](https://travis-ci.org/DanAparicio22/Ejercicio-marcador-de-Tennis.svg?branch=master)
+[![Build Status](https://travis-ci.org/DanAparicio22/Ejercicio-marcador-de-Tennis.svg?branch=master)](https://travis-ci.org/DanAparicio22/Ejercicio-marcador-de-Tennis)
